@@ -1,7 +1,7 @@
-function Leaver() {
-    console.log("Before unload");
-    return "Are you sure you want to leave?";
+console.log("Hey welcome to my page");
 
-}
+setTimeout(function() {
+    console.log("You should hire me ;D")
+}, 5000);
 
-window.onbeforeunload = Leaver;
+console.log("This will appear first even though that comes before it in code");
