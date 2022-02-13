@@ -1,7 +1,11 @@
-console.log("Hey welcome to my page");
+while(true) {
+    let randomNum = Math.round(Math.random() *10);    
+    let tester = prompt("guess my number");
 
-setTimeout(function() {
-    console.log("You should hire me ;D")
-}, 5000);
-
-console.log("This will appear first even though that comes before it in code");
+    if(tester == randomNum) {
+        alert("You win!")
+        break;
+    } else {
+        console.log('Number was actually', randomNum);
+    }
+};
