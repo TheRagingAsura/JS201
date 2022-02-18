@@ -1,20 +1,6 @@
-class MyClassName {
-    constructor(namer) {
-        this.namer = namer;
-    }
+document.getElementById('Randomizer').onclick = function ButtonClick() {
 
-    greeting() {
-        console.log(`Hello from ${this.namer}`)
-    }
+    document.getElementById('Randomizer').classList.add('test')
+   
 
-    setName(namer) {
-        this.namer = namer;
-    }
-
-}
-
-
-const nikolai = new MyClassName("Nikolai");
-nikolai.greeting();
-nikolai.setName("Apollo");
-nikolai.greeting();
+ }
