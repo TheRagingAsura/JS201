@@ -1,8 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
 body{
     background-color: rgb(77, 77, 77);
     color: white;
+
 }
 
-.test{
-    background-color:rgb(109, 0, 18);
+.MainHeader {
+    display:flex;
+    height:5vh;
+    border-bottom: 1px solid black;
+    background-color:#DC0A2D;
+    flex-wrap: none;
+    align-items: center;
+    justify-content: space-between;
 }
+
+.MainHeader a {
+    height: 5vh;
+    font-size: 2vh;
+    line-height: 5vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color:#29AAFD;
+    color: white;
+    text-decoration: none;
+}
+
+.Banner p{
+    display: inline;
+    float: left;
+
+}
+
+.MainHeader .Banner p {
+    font-size: 3vh;
+}
+
+.MainHeader img {
+    float: left;
+    height:5vh;
+    width:5vh;
+}
+
+
