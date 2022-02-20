@@ -1,6 +1,6 @@
-document.getElementById('Randomizer').onclick = function ButtonClick() {
+document.getElementsByClassName('test').onclick = function ButtonClick() {
 
-    document.getElementById('Randomizer').classList.add('test')
-   
+    document.getElementsByClassName('test').innerHTML = "tests";
+    
 
  }

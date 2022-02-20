@@ -8,23 +8,46 @@
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
-    
-    <header class="MainHeader">
-        <a href="">Reset</a>
-        <div class="Banner">
-            <img src="/images/pokeball-png-photos.png" alt=""> 
-            <p>Welcome to the Randomdex!</p>  
-            <img src="/images/pokeball-png-photos.png" alt=""> 
 
-        </div>
+<header class="MainHeader">
+    <a href="">Reset</a>
+
+    <div class="Banner test">
+        <img src="/images/pokeball-png-photos.png" alt=""> 
+        <p class="test" >Welcome to the Randomdex!</p>
+        <img id="pokeballright" src="/images/pokeball-png-photos.png" alt=""> 
+    </div>
+
+    <a href="">Swap To Starwars</a>
+</header>
+
+    <!-- Linked with JS for random pokemon -->
+    <button id="Randomizer">Click me for a Pokemon!</button>
+
+    <!-- Location for card info from API -->
+    <div class="Card DefaultCard ">
+        <div class="PokemonName">Name</div>
+        <div class="PokemonHP">HP</div>
+        <img class="PokemonType" src="" alt="PokemonType">
+        <img class="PokemonSpirte" src="" alt="PokemonSprite">
         
-        <a href="">Swap To Starwars</a>
+        <div class="move1">
+        <h3>Move1</h3>
+        <p>Move1 info</p>
+        </div>
 
-    </header>
+        <div class="move2">
+            <h3>Move2</h3>
+            <p>Move2 info</p>
+        </div>
+
+        <div class="move3">
+        <h3>Move3</h3>    
+        <p>Move3 info</p>
+        </div>
 
 
-
-
+    </div>
 
     <script src="scripts.js"></script>
 </body>

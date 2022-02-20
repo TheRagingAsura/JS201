@@ -8,8 +8,9 @@
 body{
     background-color: rgb(77, 77, 77);
     color: white;
-
 }
+
+/* Banner for page as well as swap buttons */
 
 .MainHeader {
     display:flex;
@@ -34,6 +35,7 @@ body{
     text-decoration: none;
 }
 
+/* Banner refs to middle section specifically */
 .Banner p{
     display: inline;
     float: left;
@@ -49,5 +51,52 @@ body{
     height:5vh;
     width:5vh;
 }
+/* mirrors img for pokeball */
+#pokeballright {
+    transform: scaleX(-1);
+}
 
 
+/* Randomizer button linked with JS for JSON info */
+#Randomizer {
+    background-color: tan;
+    border-radius: 5px;
+    border: none;
+    margin-left: 30vw;
+    width: 40vw;
+    height: 3vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: blue;
+    font-size: 2.5vh;
+    cursor: pointer;
+}
+
+
+
+/* Card background as well set grid for things inside of it */
+.Card {
+    margin-left: 30vw;
+    margin-right: 30vw;
+    width: 40vw;
+    height: 90vh;
+    border-radius: 10px;
+    padding: 1vw;
+    display:grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: ;
+}
+
+
+
+
+/* unloaded card defaults */
+.DefaultCard {
+    background-color: slategray;
+    border: 10px solid #FFE164;
+}
+/* Section below customized card by Pokemon types */
+/* Used for when Poison Types */
+.Poison {
+    background-color: #A46BAC;
+}
