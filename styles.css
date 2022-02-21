@@ -83,20 +83,137 @@ body{
     border-radius: 10px;
     padding: 1vw;
     display:grid;
-    grid-template-columns: 10% 10% 10% 10% 10% 10%;
-    grid-template-rows: ;
+    grid-template-columns: 5% 20% 20% 30% 10% 10% 5%;
+    grid-template-rows: 10% 40% 16.66%;
+
+}
+
+#PokemonName {
+    color: black;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#PokemonHP {
+    grid-column:5;
+    grid-row: 1;
+}
+
+#PokemonType {
+    grid-column:6;
+    grid-row: 1;
+}
+
+#PokemonSprite {
+    grid-column: 1 / 7;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    height: 100%;
+    padding-top: 5%;
+}
+
+#Move1 {
+    grid-column: 1 / 7;
+    grid-row: 3;
+    text-align: center;
+    padding-top: 5%;
 }
 
 
+#Move2 {
+    grid-column: 1 / 7;
+    grid-row: 4;
+    text-align: center;
+    padding-top: 5%;
 
+}
+
+
+#Move3 {
+    grid-column: 1 / 7;
+    grid-row: 5;
+    text-align: center;
+    padding-top: 5%;
+
+}
 
 /* unloaded card defaults */
 .DefaultCard {
     background-color: slategray;
     border: 10px solid #FFE164;
 }
+
 /* Section below customized card by Pokemon types */
-/* Used for when Poison Types */
-.Poison {
-    background-color: #A46BAC;
+.NormalType{
+background-color: #E2DCC0;
 }
+
+.FightingType{
+background-color: #E9A770;
+}
+
+.FlyingType{
+background-color: #D1C9C0;
+}
+
+.PoisonType {
+background-color: #A46BAC;
+}
+
+.GroundType{
+background-color: #D6D9CA;
+}
+
+.RockType{
+background-color: #E09946;
+}
+
+.BugType{
+background-color: #A6C55E;
+}
+
+.GhostType{
+background-color: #AA62A2;
+}
+
+.SteelType{
+background-color: #E6E6E6;
+}
+
+.FireType{
+background-color: #D25531;
+}
+
+.WaterType{
+background-color: #03B3DB;
+}
+
+.GrassType{
+background-color: #A5D221;
+}
+
+.ElectricType{
+background-color: #EBD829;
+}
+
+.PsychicType{
+background-color: #A46DA8;
+}
+
+.IceType{
+background-color: #A6DFEC;
+}
+
+.DragonType{
+background-color: #5C5B32;
+}
+
+.DarkType{
+background-color: #26302D;
+}
+
+.FairyType{
+background-color: #DB3E96;
+}
+
