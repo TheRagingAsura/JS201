@@ -4,7 +4,7 @@ let pokeAPI = "https://pokeapi.co/api/v2/pokemon/";
 let randomPokemonPage = pokeAPI + RNG;
 
 fetch(randomPokemonPage);
-console.log(randomPokemonPage);
+console.log(randomPokemonPage['abilities']);
 
 
 
