@@ -25,3 +25,10 @@ let tester = "test2"
 document.getElementById("MoveOneHeader").innerText = tester;
 
 
+let promise = new Promise(function(resolve, reject) {
+    let dummy = 10; 
+    resolve()
+
+
+
+  });
