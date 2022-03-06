@@ -3,8 +3,14 @@ let RNG = Math.round(Math.random() *100);
 let pokeAPI = "https://pokeapi.co/api/v2/pokemon/";
 let randomPokemonPage = pokeAPI + RNG;
 
-fetch(randomPokemonPage);
-console.log(randomPokemonPage['abilities']);
+fetch(randomPokemonPage)
+    .then(response => response.json())
+    .then(Pokemon => {
+        console.log(randomPokemonPage);
+    document.getElementById("PokemonName").innerHTML = Pokemon.name;
+    document.getElementById("PokemonHP").innerHTML = Pokemon.stats[0].base_stat;
+    })
+
 
 
 
@@ -17,7 +23,7 @@ function getSprite() {
 let Sprite = "/images/pokeball-png-photos.png";
 document.getElementById("PokemonSprite").src = Sprite;
 }
-getSprite()
+// getSprite()
 
 
 
