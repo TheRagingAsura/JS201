@@ -13,11 +13,8 @@ fetch(randomPokemonPage)
     let test = document.getElementById("lmao");
     test.classList.add(Pokemon.types[0].type.name);
 
-
-
-
-    // Adjust the removal to take away the class added on last click instead of the default card 
-    test.classList.remove("DefaultCard");
+        // removes last added class as well as removes DefaultCard
+    test.classList.remove(test.classList.item(1));
     
 
     })
