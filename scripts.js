@@ -9,17 +9,18 @@ fetch(randomPokemonPage)
         console.log(randomPokemonPage);
     document.getElementById("PokemonName").innerHTML = Pokemon.name;
     document.getElementById("PokemonHP").innerHTML = Pokemon.stats[0].base_stat;
+    document.getElementById("PokemonSprite").src = Pokemon.sprites.front_default;
     let test = document.getElementById("lmao");
     test.classList.add(Pokemon.types[0].type.name);
+
+
+
 
     // Adjust the removal to take away the class added on last click instead of the default card 
     test.classList.remove("DefaultCard");
     
 
     })
-
-
-
 
 }
 
@@ -32,16 +33,3 @@ document.getElementById("PokemonSprite").src = Sprite;
 }
 // getSprite()
 
-
-
-let tester = "test2" 
-document.getElementById("MoveOneHeader").innerText = tester;
-
-
-let promise = new Promise(function(resolve, reject) {
-    let dummy = 10; 
-    resolve()
-
-
-
-  });
