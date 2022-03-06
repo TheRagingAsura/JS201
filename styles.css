@@ -145,75 +145,75 @@ body{
 }
 
 /* Section below customized card by Pokemon types */
-.NormalType{
+.normal{
 background-color: #E2DCC0;
 }
 
-.FightingType{
+.fighting{
 background-color: #E9A770;
 }
 
-.FlyingType{
+.flying{
 background-color: #D1C9C0;
 }
 
-.PoisonType {
+.poison {
 background-color: #A46BAC;
 }
 
-.GroundType{
+.ground{
 background-color: #D6D9CA;
 }
 
-.RockType{
+.rock{
 background-color: #E09946;
 }
 
-.BugType{
+.bug{
 background-color: #A6C55E;
 }
 
-.GhostType{
+.ghost{
 background-color: #AA62A2;
 }
 
-.SteelType{
+.steel{
 background-color: #E6E6E6;
 }
 
-.FireType{
+.fire{
 background-color: #D25531;
 }
 
-.WaterType{
+.water{
 background-color: #03B3DB;
 }
 
-.GrassType{
+.grass{
 background-color: #A5D221;
 }
 
-.ElectricType{
+.electric{
 background-color: #EBD829;
 }
 
-.PsychicType{
+.psychic{
 background-color: #A46DA8;
 }
 
-.IceType{
+.ice{
 background-color: #A6DFEC;
 }
 
-.DragonType{
+.dragon{
 background-color: #5C5B32;
 }
 
-.DarkType{
+.dark{
 background-color: #26302D;
 }
 
-.FairyType{
+.fairy{
 background-color: #DB3E96;
 }
 

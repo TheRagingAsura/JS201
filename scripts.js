@@ -9,6 +9,13 @@ fetch(randomPokemonPage)
         console.log(randomPokemonPage);
     document.getElementById("PokemonName").innerHTML = Pokemon.name;
     document.getElementById("PokemonHP").innerHTML = Pokemon.stats[0].base_stat;
+    let test = document.getElementById("lmao");
+    test.classList.add(Pokemon.types[0].type.name);
+
+    // Adjust the removal to take away the class added on last click instead of the default card 
+    test.classList.remove("DefaultCard");
+    
+
     })
 
 
