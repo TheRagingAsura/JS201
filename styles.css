@@ -122,6 +122,13 @@ body{
     padding-top: 5%;
 }
 
+#Move1Header {
+
+}
+
+#Move1FlavorText{
+ 
+}
 
 #Move2 {
     grid-column: 1 / 7;
@@ -148,73 +155,96 @@ body{
 /* Section below customized card by Pokemon types */
 .normal{
 background-color: #E2DCC0;
+color: black;
 }
 
 .fighting{
 background-color: #E9A770;
+color: black;
 }
 
 .flying{
 background-color: #D1C9C0;
+color: black;
 }
 
 .poison {
 background-color: #A46BAC;
+color: black;
 }
 
 .ground{
 background-color: #D6D9CA;
+color: black;
+
 }
 
 .rock{
 background-color: #E09946;
+color: black;
+
 }
 
 .bug{
 background-color: #A6C55E;
+color: black;
+
 }
 
 .ghost{
 background-color: #AA62A2;
+color: black;
+
 }
 
 .steel{
 background-color: #E6E6E6;
+color: black;
 }
 
 .fire{
 background-color: #D25531;
+color: black;
+
 }
 
 .water{
 background-color: #03B3DB;
+color: black;
 }
 
 .grass{
 background-color: #A5D221;
+color: black;
 }
 
 .electric{
 background-color: #EBD829;
+color: black;
 }
 
 .psychic{
 background-color: #A46DA8;
+color: black;
 }
 
 .ice{
 background-color: #A6DFEC;
+color: black;
 }
 
 .dragon{
 background-color: #5C5B32;
+color: black;
 }
 
 .dark{
 background-color: #26302D;
+color: silver;
 }
 
 .fairy{
 background-color: #DB3E96;
+color: black;
 }
 
