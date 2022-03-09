@@ -8,40 +8,49 @@ fetch(randomPokemonPage)
     .then(Pokemon => {
         console.log(randomPokemonPage);
     document.getElementById("PokemonName").innerHTML = Pokemon.name.toUpperCase();
-    document.getElementById("PokemonHP").innerHTML = Pokemon.stats[0].base_stat;
+    document.getElementById("PokemonHP").innerHTML = Pokemon.stats[0].base_stat +" HP";
     document.getElementById("PokemonSprite").src = Pokemon.sprites.front_default;
 
     document.getElementById("Move1Header").innerHTML = Pokemon.moves[0].move.name.toUpperCase();
         fetch(Pokemon.moves[0].move.url)
         .then(response => response.json())
         .then(move1 => {
-            console.log(move1);
         document.getElementById("Move1FlavorText").innerHTML = move1.flavor_text_entries[0].flavor_text
         })
 
-        document.getElementById("Move2Header").innerHTML = Pokemon.moves[1].move.name.toUpperCase();
+    document.getElementById("Move2Header").innerHTML = Pokemon.moves[1].move.name.toUpperCase();
         fetch(Pokemon.moves[1].move.url)
         .then(response => response.json())
         .then(move2 => {
-            console.log(move2);
-        document.getElementById("Move2FlavorText").innerHTML = move2.flavor_text_entries[1].flavor_text
+        document.getElementById("Move2FlavorText").innerHTML = move2.flavor_text_entries[1].flavor_text;
         })
 
 
-    document.getElementById("Move3").innerHTML = Pokemon.moves[2].move.name.toUpperCase();
+    document.getElementById("Move3Header").innerHTML = Pokemon.moves[2].move.name.toUpperCase();
+        fetch(Pokemon.moves[2].move.url)
+        .then(response => response.json())
+        .then(move3 => {
+            document.getElementById("Move3FlavorText").innerHTML = move3.flavor_text_entries[2].flavor_text;
+        })
 
    
-    let test = document.getElementById("lmao");
+    let test = document.getElementById("MainCard");
     test.classList.add(Pokemon.types[0].type.name);
+    // removes last added class as well as removes DefaultCard
+    test.classList.remove(test.classList.item(1));
 
-        // removes last added class as well as removes DefaultCard
-    setTimeout(() => {
-        test.classList.remove(test.classList.item(1));
-        
-    }, 800);
+    let icon = document.getElementById("PokemonType")
+    ;
     
+    icon.classList.remove(icon.classList.item(0), icon.classList.add(Pokemon.types[0].type.name +"Icon"));
+        
 
     })
+
+    typeIcon = document.getElementById("PokemonType");
+    console.log(typeIcon)
+
+
 
 }
 

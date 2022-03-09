@@ -91,12 +91,13 @@ body{
 }
 
 #PokemonName {
-    color: black;
-    grid-column: 2;
+    font-size:20px;
+    grid-column: 2 / 4;
     grid-row: 1;
 }
 
 #PokemonHP {
+    font-size: 20px;
     grid-column:5;
     grid-row: 1;
 }
@@ -122,12 +123,12 @@ body{
     padding-top: 5%;
 }
 
-#Move1Header {
-
+.MoveHeader {
+font-size: 24px;
 }
 
-#Move1FlavorText{
- 
+.MoveFlavorText{
+font-size: 20px;
 }
 
 #Move2 {
@@ -172,6 +173,15 @@ color: black;
 background-color: #A46BAC;
 color: black;
 }
+
+.poisonIcon {
+    background-image: url(/images/Pokémon_Poison_Type_Icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 
 .ground{
 background-color: #D6D9CA;
