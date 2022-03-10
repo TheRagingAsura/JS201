@@ -91,15 +91,17 @@ body{
 }
 
 #PokemonName {
-    font-size:20px;
+    font-size:24px;
     grid-column: 2 / 4;
     grid-row: 1;
+    align-self: center
 }
 
 #PokemonHP {
-    font-size: 20px;
+    font-size: 24px;
     grid-column:5;
     grid-row: 1;
+    align-self: center
 }
 
 #PokemonType {
@@ -159,14 +161,38 @@ background-color: #E2DCC0;
 color: black;
 }
 
+.normalIcon {
+    background-image: url(https://i.postimg.cc/rmd7cCH8/normal-type-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 .fighting{
 background-color: #E9A770;
 color: black;
 }
 
+.fightingIcon {
+    background-image: url(https://i.postimg.cc/qqwFxbhx/fighting-Ion.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 .flying{
 background-color: #D1C9C0;
 color: black;
+}
+
+.flyingIcon {
+    background-image: url(https://i.postimg.cc/tgvYP907/Flying-Type.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .poison {
@@ -175,36 +201,63 @@ color: black;
 }
 
 .poisonIcon {
-    background-image: url(/images/Pokémon_Poison_Type_Icon.png);
+    background-image: url(https://i.postimg.cc/MTzCZ5Q0/Pok-mon-Poison-Type-Icon.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
 }
 
-
 .ground{
 background-color: #D6D9CA;
 color: black;
+}
 
+.groundIcon {
+    background-image: url(https://i.postimg.cc/L5LXrfJZ/1200px-Pok-mon-Rock-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .rock{
 background-color: #E09946;
 color: black;
+}
 
+.rockIcon {
+    background-image: url(https://i.postimg.cc/ZnJ2K32W/mountain-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .bug{
 background-color: #A6C55E;
 color: black;
+}
 
+.bugIcon {
+    background-image: url(https://i.postimg.cc/pTRbQncx/2048px-Pok-mon-Bug-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .ghost{
 background-color: #AA62A2;
 color: black;
+}
 
+.ghostIcon {
+    background-image: url(https://i.postimg.cc/6QyqngSt/1024px-Pok-mon-Ghost-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .steel{
@@ -212,10 +265,25 @@ background-color: #E6E6E6;
 color: black;
 }
 
+.steelIcon {
+    background-image: url(https://i.postimg.cc/s2kjSX74/2048px-Pok-mon-Steel-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 .fire{
 background-color: #D25531;
 color: black;
+}
 
+.fireIcon {
+    background-image: url(https://i.postimg.cc/y8JCPKVQ/353-3532499-badgeleopard-the-energy-types-of-the-pokemon-tcg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .water{
@@ -223,9 +291,25 @@ background-color: #03B3DB;
 color: black;
 }
 
+.waterIcon {
+    background-image: url(https://i.postimg.cc/QdzpwRRn/1200px-Pok-mon-Water-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 .grass{
 background-color: #A5D221;
 color: black;
+}
+
+.grassIcon {
+    background-image: url(https://i.postimg.cc/9QD9dLrP/1200px-Pok-mon-Grass-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .electric{
@@ -233,9 +317,25 @@ background-color: #EBD829;
 color: black;
 }
 
+.electricIcon {
+    background-image: url(https://i.postimg.cc/BQTSdDRW/1024px-Pok-mon-Electric-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 .psychic{
 background-color: #A46DA8;
 color: black;
+}
+
+.psychicIcon {
+    background-image: url(https://i.postimg.cc/Nf3Xx1TW/1024px-Pok-mon-Psychic-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .ice{
@@ -243,9 +343,25 @@ background-color: #A6DFEC;
 color: black;
 }
 
+.iceIcon {
+    background-image: url(https://i.postimg.cc/rpCYTyMw/ice-type-icon.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 .dragon{
 background-color: #5C5B32;
 color: black;
+}
+
+.dragonIcon {
+    background-image: url(https://i.postimg.cc/Hk0tcSKS/1200px-Pok-mon-Dragon-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
 }
 
 .dark{
@@ -253,8 +369,23 @@ background-color: #26302D;
 color: silver;
 }
 
+.darkIcon {
+    background-image: url(https://i.postimg.cc/X7f2d7Bc/1024px-Pok-mon-Dark-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
 .fairy{
 background-color: #DB3E96;
 color: black;
 }
 
+.fairyIcon {
+    background-image: url(https://i.postimg.cc/nVkjDyc9/1024px-Pok-mon-Fairy-Type-Icon-svg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}

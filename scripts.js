@@ -36,6 +36,7 @@ fetch(randomPokemonPage)
    
     let test = document.getElementById("MainCard");
     test.classList.add(Pokemon.types[0].type.name);
+    console.log(Pokemon.types[0].type.name)
     // removes last added class as well as removes DefaultCard
     test.classList.remove(test.classList.item(1));
 
@@ -50,8 +51,6 @@ fetch(randomPokemonPage)
     typeIcon = document.getElementById("PokemonType");
     console.log(typeIcon)
 
-
-
 }
 
 
@@ -65,5 +64,4 @@ function getSprite() {
 let Sprite = "/images/pokeball-png-photos.png";
 document.getElementById("PokemonSprite").src = Sprite;
 }
-// getSprite()
 
